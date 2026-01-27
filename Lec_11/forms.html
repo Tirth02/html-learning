@@ -15,10 +15,22 @@
     <h1>Forms in HTML</h1>
     <form action="" method="get" accept-charset="utf-16" autocomplete="off" enctype="">
         <label for="fname">First Name: </label>
-        <input type="text" placeholder="First Name" name="" id="fname">
-        <br/>
-        <label for="lname">Last Name: </label>
-        <input type="text" placeholder="Last Name" name="" id="lname">
+        <input type="text" placeholder="First Name" name="" id="fname" value="hitesh">
+        <input type="password" name="" id="">
+        <input type="week" name="" id="">
+        <input type="reset" value="reset">
+        <input type="email" name="" id="">
+        <select name="editors" id="" multiple>
+            <option value="vscode">VSCODE </option>
+            <option value="sublime">SUBLIME </option>
+
+        </select>
+
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">VSCODE </option>
+            <option value="sublime">SUBLIME </option>
+        </datalist>
         <button type="submit">Pay</button>
     </form>
 </body>
